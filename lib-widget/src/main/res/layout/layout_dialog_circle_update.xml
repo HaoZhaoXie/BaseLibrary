@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_picker_bg"
+    android:paddingTop="@dimen/dp_10"
+    android:paddingBottom="20dp">
+
+
+    <TextView
+        android:id="@+id/tvCreateSoCancel"
+        android:layout_width="60dp"
+        android:layout_height="@dimen/dp_40"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="忽略"
+        android:textColor="#919397"
+        android:textSize="@dimen/sp_14" />
+
+
+    <ImageView
+        android:id="@+id/icon_no_so_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/icon_update_circle" />
+
+
+    <TextView
+        android:id="@+id/tv_so_dialog_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon_no_so_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="优化你的圈子资料，提高用户加入圈子的转化率"
+        android:textColor="#272727"
+        android:textSize="@dimen/sp_14" />
+
+    <Button
+        android:id="@+id/btnGo2Edit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_below="@id/tv_so_dialog_tip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/shape_retry_415bfd_15"
+        android:text="去编辑"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14" />
+</RelativeLayout>

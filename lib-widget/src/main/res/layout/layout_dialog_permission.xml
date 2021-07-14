@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lLayout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_picker_white_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:gravity="center"
+        android:text="@string/title_pleasant_remand"
+        android:textColor="#272727"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/txt_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:lineSpacingMultiplier="1.2"
+            android:minHeight="@dimen/dp_40"
+            android:text="感谢您的信任并使用超能城市！
+    \n       我们根据最新的法规更新了《隐私政策》，超能城市需要获取以下权限和信息。系统将以弹框的形式提醒，建议您允许超能城市获取相关权限：
+    \n1、您的设备信息\n
+	     为了提供更好的产品或服务并改善用户体验，我们将会收集设备属性信息（例如您的设备型号）。对于从您的各种设备上收集的信息
+	我们可能会将您的设备信息或注册电话号码与超能城市账号关联
+	\n2、您的位置信息\n
+	     当您使用具有定位功能的超能服务（城市打卡，城市热议，政务办事或其他定位服务）时，我们可能会收集或处理有关您所在的位置信息，
+	已使得您不需要手动输入自身地理坐标就可以获得相关服务，您可以通过关闭定位功能，停止对您的地理位置信息的收集，
+	但您可能将无法获得相关服务或功能，或无法达到相关服务拟到达的效果。
+	\n3、语音信息\n
+	     当您使用及时通讯语音功能时，我们将获取您的麦克风权限，方便快捷的与好友沟通，您可以关闭麦克风读取权限，停止对您的语音信息的收集，
+	但您可能无法获得相关的服务功能
+	\n4、相机存储权限\n
+	     当您使用具有相机存储权限相关的的超能服务（发布游记，更换头像，及时通讯发布图片信息）时，我们将获取您的相机及存储权限。您可以关闭相机及存储读取权限，但您可能无法发布图片或更换头像等相关服务功能。"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="请您阅读并同意"
+            android:textColor="#666666"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tvPermissionUser"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="《用户协议》"
+            android:textColor="@color/color_415BFD"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="和"
+            android:textColor="#666666"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tvPermission"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="《隐私协议》"
+            android:textColor="@color/color_415BFD"
+            android:textSize="@dimen/sp_12" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_pos"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/shape_retry_415bfd_15"
+        android:gravity="center"
+        android:text="同意并使用"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_stroke_415bfd"
+        android:gravity="center"
+        android:text="暂不使用"
+        android:textColor="@color/color_415BFD"
+        android:textSize="14sp" />
+</LinearLayout>

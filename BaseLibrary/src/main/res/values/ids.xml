@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvTitleBarBack" type="id" />
+    <item name="BaseTitleBar" type="id" />
+    <item name="triggerDelayKey" type="id"/>
+    <item name="triggerLastTimeKey" type="id"/>
+</resources>

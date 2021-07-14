@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvTitleBarBack"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/color_272727"
+    android:drawablePadding="@dimen/dp_5"
+    android:singleLine="true"
+    android:paddingEnd="@dimen/dp_10"
+    android:paddingStart="@dimen/dp_10"
+    android:minWidth="@dimen/dp_50"
+    android:gravity="center_vertical"
+    android:textSize="@dimen/sp_16"
+    android:textStyle="bold" />

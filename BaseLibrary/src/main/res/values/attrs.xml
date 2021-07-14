@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleBarView">
+        <attr name="title" format="reference|string" />
+        <attr name="backIcon" format="reference" />
+        <attr name="canBack" format="boolean" />
+        <attr name="titleBarColor" format="reference" />
+        <attr name="fitSystem" format="boolean" />
+    </declare-styleable>
+
+    <style name="web_dialog_animation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/web_dialog_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/web_dialog_bottom_out</item>
+    </style>
+
+
+</resources>

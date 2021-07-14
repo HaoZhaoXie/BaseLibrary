@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/purple_200</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="TitleBar">
+        <item name="android:tag">@string/BaseTitle</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_44</item>
+    </style>
+
+    <style name="SplashTheme" parent="android:Theme.NoTitleBar.Fullscreen">
+<!--        <item name="android:windowBackground">@drawable/bg_splash_window</item>-->
+        <item name="windowActionBar">true</item>
+    </style>
+
+
+
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+
+    <style name="BaseCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/base_checkbox_sel</item>
+    </style>
+    <style name="RoundCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/round_checkbox_sel</item>
+    </style>
+
+    <style name="fiveRatingBarLarge" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/base_rating_bar_bg_large</item>
+        <item name="android:minHeight">@dimen/dp_24</item>
+        <item name="android:maxHeight">@dimen/dp_25</item>
+    </style>
+
+    <style name="fiveRatingBarBig" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/base_rating_bar_bg_big</item>
+        <item name="android:minHeight">@dimen/dp_15</item>
+        <item name="android:maxHeight">@dimen/dp_16</item>
+    </style>
+
+    <style name="fiveRatingBarSmall" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/base_rating_bar_bg_small</item>
+        <item name="android:minHeight">@dimen/dp_11</item>
+        <item name="android:maxHeight">@dimen/dp_12</item>
+    </style>
+
+    <style name="fiveRatingBarMini" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/base_rating_bar_bg_mini</item>
+        <item name="android:minHeight">@dimen/dp_9</item>
+        <item name="android:maxHeight">@dimen/dp_10</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="date_picker_bg">#FFFFFF</color>
+    <color name="date_picker_divider">#11112233</color>
+    <color name="date_picker_text_dark">#272727</color>
+    <color name="black">#000000</color>
+    <color name="data_picker_save">#415bfd</color>
+</resources>

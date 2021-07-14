@@ -1,0 +1,11 @@
+rootProject.name = "LibraryDemo"
+include ':app'
+include ':lib-roundcorners'
+include ':lib-share'
+include ':lib-download'
+include ':lib-datepicker'
+include ':lib-widget'
+include ':lib-zxing'
+include ':BaseLibrary'
+include ':lib-ImagePicker'
+include ':lib-oss'

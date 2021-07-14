@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app初始化用色调配 -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <!-- 超级app全局用色调配 -->
+    <color name="background">#F5F7F8</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white70">#AAFFFFFF</color>
+    <color name="color_272727">#272727</color>
+    <color name="color_f9f9f9">#f9f9f9</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_FF4603">#FF4603</color>
+    <color name="color_FF1D1D">#FF1D1D</color>
+    <color name="color_underline">#88EDEDED</color>
+    <color name="color_bbbbbb">#bbbbbb</color>
+    <color name="color_ffa014">#ffa014</color>
+
+    <color name="color_20D7A8">#20D7A8</color>
+    <color name="color_E7F1FF">#E7F1FF</color>
+
+    <!--new color-->
+    <color name="color_415BFD">#415BFD</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_BABCFA">#BABCFA</color>
+    <color name="color_CECECE">#CECECE</color>
+    <color name="color_595959">#595959</color>
+    <color name="color_5f5f5f">#5f5f5f</color>
+    <color name="color_FD672A">#FD672A</color>
+    <color name="color_F5F7F8">#F5F7F8</color>
+    <color name="color_2B579F">#2B579F</color>
+    <color name="color_ededed">#EDEDED</color>
+    <color name="color_EDDAAF">#EDDAAF</color>
+    <color name="color_FFEFE9">#FFEFE9</color>
+    <color name="color_E1E6F8">#E1E6F8</color>
+    <color name="color_955E13">#955E13</color>
+    <color name="color_5D8FE0">#5D8FE0</color>
+    <color name="color_868BFC">#868BFC</color>
+    <color name="color_15CBA1">#15CBA1</color>
+    <color name="color_FF98A0">#FF98A0</color>
+    <color name="color_F6E1E2">#F6E1E2</color>
+    <color name="color_E87F16">#E87F16</color>
+    <color name="color_345BA9">#345BA9</color>
+    <color name="color_496CB2">#496CB2</color>
+    <color name="color_EA8C2E">#EA8C2E</color>
+    <color name="color_EDEFF0">#EDEFF0</color>
+</resources>

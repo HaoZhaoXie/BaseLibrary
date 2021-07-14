@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_picker_bg">
+
+
+    <LinearLayout
+        android:id="@+id/llPawTitle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/tv_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/sp_14" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="请输入支付密码"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_wx_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="15dp"
+            android:gravity="center"
+            android:text="微信支付"
+            android:textColor="@color/color_415BFD"
+            android:textSize="@dimen/sp_14" />
+    </LinearLayout>
+
+
+    <com.cangjiedata.lib_widget.pawd.PasswordEditText
+        android:id="@+id/et_input"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/llPawTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:pwdCount="6"
+        app:style="roundRectangle" />
+
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/et_input"
+        android:background="#ededed"/>
+
+    <com.cangjiedata.lib_widget.pawd.PasswordKeyboardView
+        android:id="@+id/key_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewLine"
+        android:background="#ededed"
+        android:keepScreenOn="true"
+        android:keyBackground="@drawable/selector_pay_key_board"
+        android:keyTextColor="@android:color/black"
+        android:keyTextSize="26sp"
+        android:shadowRadius="0" />
+
+</RelativeLayout>

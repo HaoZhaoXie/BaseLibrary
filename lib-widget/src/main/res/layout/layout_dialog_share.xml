@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kproduce.roundcorners.RoundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EDEFF0"
+    android:orientation="vertical"
+    android:paddingBottom="24dp"
+    app:rTopRadius="12dp">
+
+    <TextView
+        android:id="@+id/tvShareTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="分享出去让更多好友看到"
+        android:textColor="@color/color_999999"
+        android:textSize="@dimen/sp_12" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="20dp"
+        android:background="#F6F9FB"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#666666"
+        android:visibility="gone"/>
+
+</com.kproduce.roundcorners.RoundLinearLayout>
